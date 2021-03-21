@@ -15,6 +15,8 @@ namespace CatelActiveViewModelsBug.ViewModels
         public ObservableCollection<IViewModel> ActiveViewModels { get; set; } = new();
 
         private DispatcherTimer RefreshActiveViewModelsTime;
+
+
         public MainWindowViewModel()
         {
             Title = "MainWindowViewModel";

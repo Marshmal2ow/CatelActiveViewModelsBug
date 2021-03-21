@@ -34,9 +34,9 @@ namespace CatelActiveViewModelsBug.Views
                 DataContext = new TabItem1ViewModel()
             };
 
-            var tabItem = new TabItem
+            TabItem tabItem = new TabItem
             {
-                Header = "TabItem1ViewWithManualAttachedDatacontextViewModel",
+                Header = "TabItem1ViewWithManualAttachedDataContextViewModel",
                 Content = view
             };
 
